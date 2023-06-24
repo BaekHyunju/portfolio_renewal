@@ -222,7 +222,7 @@ header {
     height: 90px;
     background: #b5cbde86;
     backdrop-filter: blur(10px);
-    position: absolute;
+    position: fixed;
     z-index: 999;
 }
 .nav {

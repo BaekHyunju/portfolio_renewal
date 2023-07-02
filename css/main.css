@@ -100,13 +100,13 @@
   font-display: swap;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Pretendard-Regular";
   src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
     format("woff");
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: "NanumBarunGothic";
@@ -221,7 +221,7 @@ body {
 .title {
     margin: 100px 0 70px 0;
     font-size: 6rem;
-    font-weight: 900;
+    font-weight: 700;
     color:#2a425d;
 }
 .content {
@@ -270,7 +270,7 @@ header .logo {
 header .logo p {
     margin-left: 90px;
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #fff;
     padding: 27px 0;
 }
@@ -458,7 +458,7 @@ header .gnb li a {
 .home_txt_intro {
     font-size: 3.5rem;
     line-height: 4.5rem;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 30px;
 }
 .home_txt_intro .txt_hello {
@@ -731,6 +731,254 @@ header .gnb li a {
     margin-top: 0;
 }
 
+/* 임시 */
+ .explain {
+    display: none;
+ }
 
 
 /* //스킬 */
+
+
+
+
+
+/* 포트폴리오 */
+.portfolio {
+    font-family: "NanumSquareNeo-Variable";
+    color: #444444;
+}
+.portfolio .sub_tit {
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-align: right;
+    color:#677c8e;
+    font-family: 'Pretendard';
+}
+.pofol_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4%;
+    margin: 4% 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pofol_img {
+    width: 750px;
+    height: 477px;
+    border-radius: 30px;
+    box-shadow: 0 5px 20px 0 #42414240;
+    display: inline-block;
+}
+.mof{
+    background: url(../img/mof.png)no-repeat center;
+    background-size: cover;
+}
+.melon{
+    background: url(../img/melon.png)no-repeat center;
+    background-size: cover;
+}
+.usk{
+    background: url(../img/universalstudio.png)no-repeat center;
+    background-size: cover;
+}
+.pofol{
+    background: url(../img/portfolio.png)no-repeat center;
+    background-size: cover;
+}
+.dosiraktong{
+    background: url(../img/dosiraktong.png)no-repeat center;
+    background-size: cover;
+}
+.pofol_tit p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 5% 0;
+}
+.pofol_con p {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+}
+.pofol_con p:last-child{
+    margin-bottom: 0;
+}
+.pofol_con p span {
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+@media screen and (max-width:1200px){
+    .pofol_img {
+        width: 62.5000vw;
+        height: 39.7500vw;
+    }
+
+    /* .pofol_box {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+    .pofol_img {
+        width: 100%;
+        border-radius: 30px;
+    } */
+    .pofol_con p {
+        margin-bottom: 3%;
+    }
+}
+@media screen and (max-width:850px){
+    .pofol_box {
+        grid-template-columns: none;
+        gap: 0;
+        display: inline-block;
+    }
+    .pofol_img {
+        width: 100%;
+        height: 61.2056vw;
+        border-radius: 30px;
+    }
+    .pofol_txt {
+        text-align: center;
+    }
+}
+@media screen and (max-width:768px){
+.portfolio .sub_tit {
+    font-size: 1.8rem;
+}
+}
+@media screen and (max-width:600px){
+    .pofol_tit p{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:500px){
+    .pofol_tit p{
+        margin: 7% 0;
+        font-size: 1.7rem;
+    }
+    .pofol_con p{
+        font-size: 1rem;
+    }
+    .pofol_con p span{
+        font-size: 1.125rem;
+    }
+    .portfolio .sub_tit {
+        font-size: 1.3rem;
+    }
+}
+/* //포트폴리오 */
+
+
+
+
+
+
+/* 포트폴리오 탭메뉴 */
+
+
+.tab{float:left; width:100%; height: 100%;margin-top: 5%;}
+.tabnav{font-size:0; border-bottom:2px solid #b5cbde;}
+.tabnav li{display: inline-block;  height:55px; text-align:center;}
+
+.tabnav li a{ 
+  position:relative; 
+  display:block;  
+  font-family: 'Pretendard'; 
+  font-size: 1.4375rem; 
+  color: #dbdbdb; 
+  padding:0 30px; 
+  line-height:55px; 
+  text-decoration:none; 
+  border-bottom: 2px solid #b5cbde;}
+/* #96b2c9 #8ba4b9 */
+.tabnav li a.active{ 
+  color:#b5cbde; 
+  border: 2px solid #b5cbde; 
+  border-bottom:2px solid #f5f5f5; }
+.tabcontent{padding-top: 3%; border-top:none;}
+
+
+@media screen and (max-width: 768px) {
+    .tab {margin-top: 5%;}
+}
+
+
+@media screen and (max-width: 700px) {
+  .tab{clear: both;}
+  .tabnav {
+    border-bottom: none;
+    width: auto;
+  }
+  .tabnav li{
+    height: 46px;
+    margin-bottom: 10px;
+  }
+
+  .tabnav li a{
+    font-size: 1.25rem;
+    padding: 0 25px;
+    line-height: 46px;
+    border: 1px solid #dbdbdb;
+
+    margin-right: 10px;
+    color: #dbdbdb;
+  }
+  .tabnav li:last-child a{
+    margin-right: 0;
+  }
+  .tabnav li a.active{
+    border: 2px solid #b5cbde;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 630px) {
+  .tabnav li{
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .tabnav li a{
+    font-size: 1.125rem;
+    padding: 0 15px;
+    line-height: 40px;
+    border: 1px solid #dbdbdb;
+
+    margin-right: 10px;
+    color: #dbdbdb;
+  }
+
+/* 임의의 영역 생성 */
+.scrollBar { 
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+/* 아래의 모든 코드는 영역::코드로 사용 */
+.scrollBar::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+    height: 10%; /* 스크롤바의 길이 */
+    background: #b5cbde; /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+
+.scrollBar::-webkit-scrollbar-track {
+    background: #b5cbde31;  /*스크롤바 뒷 배경 색상*/
+    border-radius: 10px;
+}
+
+
+}

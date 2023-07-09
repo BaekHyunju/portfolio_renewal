@@ -78,3 +78,20 @@ $(function(){
       return false;
     }).filter(':eq(0)').click();
     });
+
+// 스킬 카운터 올라가는
+    $(function(){
+        $('.counter').counterUp({
+          delay: 10,
+          time: 1600
+        });
+    })
+
+
+
+    var waypoint = new Waypoint({
+        element: document.getElementById('waypoint'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint!')
+        }
+      })

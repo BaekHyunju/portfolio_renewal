@@ -869,14 +869,15 @@ header .gnb li a {
         padding: 0 0 15% 0;
     }
     .skill .content ul .skill_icon {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
     .skill .content ul li .skill_txt {
         font-weight: 700;
+        padding: 15px;
     }
     .skill .content ul li .skill_num{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 

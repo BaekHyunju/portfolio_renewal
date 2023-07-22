@@ -500,9 +500,22 @@ header .gnb li a {
     font-size: 3.75rem;
 }
 .home_txt_intro .txt_name {
-    text-decoration: underline 10px solid #b5cbde !important;
-    text-underline-offset: -2px;
+    /* text-decoration: underline 10px solid #b5cbde !important;
+    text-underline-offset: -2px; */
+    position: relative;
 }
+.home_txt_intro .txt_name::after {
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: #b5cbde;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    z-index: -1;
+}
+
 .home_txt_intro .txt_color{
     color: #b5cbde;
 }
@@ -522,8 +535,20 @@ header .gnb li a {
     display: none;
 }
 .home_txt_con .underline {
-    text-decoration: underline 5px solid #b5cbde !important;
-    text-underline-offset: -1px;
+    /* text-decoration: underline 5px solid #b5cbde !important;
+    text-underline-offset: -1px; */
+    position: relative;
+}
+.home_txt_con .underline::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: #b5cbde;
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    z-index: -1;
 }
 .gh_btn { margin-top: 30px; }
 .gh_btn a{
@@ -561,6 +586,9 @@ header .gnb li a {
         line-height: 1.8rem;
         font-size: 1.2rem;
     }
+    .home_txt_intro .txt_name::after {
+        bottom: 3px;
+    }
 }
 @media screen and (max-width:768px){
     .home_txt_intro {
@@ -576,6 +604,9 @@ header .gnb li a {
     }
     .home_txt_con {
         font-size: 1.125rem;
+    }
+    .home_txt_con .underline::after {
+        bottom: 0;
     }
 }
 @media screen and (max-width:500px){
@@ -672,8 +703,20 @@ header .gnb li a {
     grid-template-columns: repeat(2,1fr);
 }
 .profile_right .underline {
-    text-decoration: underline 7px solid #b5cbde !important;
-    text-underline-offset: -2px;
+    /* text-decoration: underline 7px solid #b5cbde !important;
+    text-underline-offset: -2px; */
+    position: relative;
+}
+.profile_right .underline::after {
+    content: '';
+    width: 100%;
+    height: 7px;
+    background: #b5cbde;
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    z-index: -1;
 }
 
 @media screen and (max-width:1000px){
@@ -771,7 +814,9 @@ header .gnb li a {
     .activity span {
         font-size: 1.3rem;
     }
-
+    .profile_right .underline::after {
+        bottom: 0;
+    }
 }
 @media screen and (max-width:400px){
     .profile_r .activity p b{

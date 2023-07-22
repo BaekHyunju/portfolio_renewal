@@ -589,7 +589,7 @@ header .gnb li a {
     }
     .home_txt_con {
         line-height: 1.8rem;
-        font-size: 1.2rem;
+        font-size: 1/.2rem;
     }
     .home_txt_intro .txt_name::after {
         bottom: 3px;
@@ -628,6 +628,11 @@ header .gnb li a {
     }
     .home_txt_con .txt_con_tit {
         margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:400px){
+    .home_txt_con{
+        font-size: 1rem;
     }
 }
 /* //홈 */
@@ -763,6 +768,7 @@ header .gnb li a {
     .profile .content {
         flex-direction: column;
         gap: 20px;
+        font-size: 1.125rem;
     }
     .profile_left {
         width: 100%;

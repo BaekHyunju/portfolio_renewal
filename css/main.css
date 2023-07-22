@@ -500,7 +500,7 @@ header .gnb li a {
     font-size: 3.75rem;
 }
 .home_txt_intro .txt_name {
-    text-decoration: underline 10px solid #b5cbde;
+    text-decoration: underline 10px solid #b5cbde !important;
     text-underline-offset: -2px;
 }
 .home_txt_intro .txt_color{
@@ -522,7 +522,7 @@ header .gnb li a {
     display: none;
 }
 .home_txt_con .underline {
-    text-decoration: underline 5px solid #b5cbde;
+    text-decoration: underline 5px solid #b5cbde !important;
     text-underline-offset: -1px;
 }
 .gh_btn { margin-top: 30px; }
@@ -672,7 +672,7 @@ header .gnb li a {
     grid-template-columns: repeat(2,1fr);
 }
 .profile_right .underline {
-    text-decoration: underline 7px solid #b5cbde;
+    text-decoration: underline 7px solid #b5cbde !important;
     text-underline-offset: -2px;
 }
 

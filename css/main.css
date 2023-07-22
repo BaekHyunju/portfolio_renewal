@@ -214,10 +214,18 @@ body {
         padding: 0 1rem;
     }
     header .wrap {
-        padding: 0;
+        padding: 0 1rem;
     }
 }
-
+@media screen and (max-width:500px){
+    
+    .wrap{
+        padding: 0 10px;
+    }
+    header .wrap {
+        padding: 0 10px;
+    }
+}
 .title {
     padding: 100px 0 70px 0;
     font-size: 6rem;
@@ -304,15 +312,20 @@ header .gnb li a {
         height: 70px;
     }
     header .logo {
-        width: 60px;
-        height: 60px;
-        margin: 5px 0;
+        width: 50px;
+        height: 50px;
+        margin: 10px 0;
     }
     header .gnb li {
         display: inline-block;
         font-size: 1.25rem;
         font-weight: 500;
-        padding: 25px 0.2rem ;
+        padding: 25px 0.3rem ;
+    }
+}
+@media screen and (max-width:340px){
+    header .gnb li {
+        font-size: 1.125rem;
     }
 }
 /* //헤더 */

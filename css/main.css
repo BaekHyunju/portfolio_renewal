@@ -480,24 +480,11 @@ header .gnb li a {
     background-position: 55%;
 }
 .home .home_img .home_img_center::before {
-    content:'';
-    width: 100%;
-    height: 720px;
     border: 1px solid #b5cbde;
-    position: absolute;
-    top: -15px;
-    left: -15px;
-    box-sizing: border-box;
 }
 .home .home_img .home_img_center::after {
-    content:'';
-    width: 100%;
-    height: 720px;
+
     border: 1px solid #dae5ee;
-    position: absolute;
-    bottom: -15px;
-    right: -15px;
-    box-sizing: border-box;
 }
 }
 /* 홈 - 컨텐츠 - 텍스트 */

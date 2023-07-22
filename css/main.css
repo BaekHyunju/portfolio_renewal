@@ -865,8 +865,8 @@ header .gnb li a {
 @media screen and (max-width:500px){
     .skill .content ul {
         grid-template-columns: repeat(2, 1fr);
-        gap:2%;
-        padding: 0 0 15% 0;
+        gap:3%;
+        padding: 0 0 20% 0;
     }
     .skill .content ul .skill_icon {
         width: 90px;

@@ -4,8 +4,8 @@ const $text = document.querySelector(".typing_text");
 // 글자 모음
 const letters = [
    "감각적인",
-   "노력파",
-   "열정적인"
+   "열정적인",
+   "성실한"
 ];
 
 // 글자 입력 속도

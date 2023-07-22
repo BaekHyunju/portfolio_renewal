@@ -321,9 +321,9 @@ header .gnb li a {
         height: 55px;
     }
     header .logo {
-        width: 50px;
-        height: 50px;
-        margin: 3px 0;
+        width: 45px;
+        height: 45px;
+        margin: 5px 0;
     }
     header .gnb li {
         display: inline-block;
@@ -414,7 +414,7 @@ header .gnb li a {
     }
     .home .home_txt {
         width: 100%;
-        padding: 2rem;
+        padding: 1.2rem 0.5rem;
     }
     .home .home_img {
         padding: 10px;
@@ -468,7 +468,7 @@ header .gnb li a {
 }
 @media screen and (max-width:768px){
     .home .home_txt {
-        padding: 1.5rem;
+        padding: 1rem 0.5rem;
     }
 }
 @media screen and (max-width:500px){
@@ -579,14 +579,14 @@ header .gnb li a {
 }
 @media screen and (max-width:500px){
     .home_txt_intro {
-        font-size: 2rem;
+        font-size: 2.3rem;
         margin-bottom: 20px;
     }
     .home_txt_intro .txt_hello {
         font-size: 2.3rem;
     }
     .home_txt_intro .txt_color .txt_em{
-        font-size: 2.7rem;
+        font-size: 3.3rem;
         line-height: 3.9rem;
     }
     .home_txt_con .txt_con_tit {
@@ -799,6 +799,8 @@ header .gnb li a {
 }
 .skill .content {
     margin-bottom: 0;
+    position: relative;
+    z-index: 1;
 }
 .skill .content ul {
     /* padding: 120px 0 325px 0; */
@@ -1288,10 +1290,18 @@ header .gnb li a {
     margin: 10px 0;
     color: #677c8e;
   }
-  @media screen and (max-width:500px){
+  @media screen and (max-width:1000px){
     .footer-box {
+        padding: 7.7% 0;
+      }
+  }
+  @media screen and (max-width:500px){
+    .footer-top {
+        font-size: 16px;
+      }
+    /* .footer-box {
         padding: 16% 0;
-    }
+    } */
 }
   @media screen and (max-width:360px){
 

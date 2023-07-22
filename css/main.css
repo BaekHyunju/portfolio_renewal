@@ -472,7 +472,7 @@ header .gnb li a {
     }
 }
 @media screen and (max-width:500px){
- .home{padding-top: 80px;}
+ .home{padding-top: 65px;}
  .home .home_txt {
     padding: 1rem;
 }
@@ -1014,7 +1014,7 @@ header .gnb li a {
 
 
 /* 포트폴리오 */
-.portfolio {
+.portfolio .content {
     font-family: "NanumSquareNeo-Variable";
     color: #444444;
 }

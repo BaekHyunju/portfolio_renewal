@@ -289,6 +289,9 @@ header .gnb li {
     font-weight: 500;
     padding: 33px 1.5rem ;
 }
+header .gnb li:last-child {
+    padding: 33px 0 33px 1.5rem ;
+}
 header .gnb li a {
     color: #fff;
 }
@@ -296,6 +299,9 @@ header .gnb li a {
 @media screen and (max-width:1000px){
     header .gnb li {
         padding: 34px 0.7rem ;
+    }
+    header .gnb li:last-child {
+        padding: 34px 0 34px 0.7rem ;
     }
 }
 @media screen and (max-width:768px){
@@ -305,6 +311,9 @@ header .gnb li a {
     }
     header .gnb li {
         padding: 34px 0.7rem ;
+    }
+    header .gnb li:last-child {
+        padding: 34px 0 34px 0.7rem ;
     }
 }
 @media screen and (max-width:500px){
@@ -321,6 +330,9 @@ header .gnb li a {
         font-size: 1.25rem;
         font-weight: 500;
         padding: 25px 0.3rem ;
+    }
+    header .gnb li:last-child {
+        padding: 25px 0 25px 0.3rem ;
     }
 }
 @media screen and (max-width:340px){

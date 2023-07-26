@@ -272,7 +272,7 @@ header {
 }
 header .logo {
     height: 80px;
-    background: url(../img/logo.png) no-repeat left center;
+    background: url(../img/logo2.png) no-repeat left center;
     background-size: contain;
     margin: 5px 0;
 }
@@ -959,7 +959,7 @@ header .gnb li a {
 .cloud_bg .cloud {
     display: block;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 .cloud_bg .cloud:nth-child(1){
     width: 20%;
@@ -981,7 +981,7 @@ header .gnb li a {
     transform: translate3d(0, 0, 0);
 }
 .cloud_bg .cloud:nth-child(3){
-    width: 18%;
+    width: 15%;
     height: 200px;
     background: url(../img/cloud3.png)no-repeat center;
     background-size: contain;

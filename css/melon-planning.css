@@ -213,11 +213,12 @@ body {
         text-align: center;
         margin: 0px auto 0px;
         position: relative;
-        top: 110px;
+        top: 50px;
     }
 
     .planning-melon {
-        width: 91.1458vw;
+        /* width: 91.1458vw; */
+        width: 100%;
         /* 700 */
         min-width: 300px;
         height: 1266.7969vw;

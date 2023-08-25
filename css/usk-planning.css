@@ -211,11 +211,12 @@ body {
         text-align: center;
         margin: 0px auto 0px;
         position: relative;
-        top: 110px;
+        top: 50px;
     }
 
     .planning-usk {
-        width: 91.1458vw;
+        /* width: 91.1458vw; */
+        width: 100%;
         min-width: 300px;
         height: 618.4896vw;
         background: url(../img/usk-planning-app.png)no-repeat top;

@@ -216,11 +216,12 @@ body {
         text-align: center;
         margin: 0px auto 0px;
         position: relative;
-        top: 110px;
+        top: 50px;
     }
 
     .planning-mof {
-        width: 91.1458vw;
+        /* width: 91.1458vw; */
+        width: 100%;
         min-width: 300px;
         height: 471.3542vw;
         background: url(../img/mof-planning-app.png)no-repeat top;
